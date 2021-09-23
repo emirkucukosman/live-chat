@@ -1,0 +1,31 @@
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+}
+
+.messageDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px;
+}
+
+.messageDiv > div {
+  display: flex;
+  align-items: center;
+}
+
+.systemMessageDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px;
+  background-color: rgb(235, 235, 235);
+}
+
+.systemMessageDiv > div {
+  display: flex;
+  align-items: center;
+}
